@@ -36,9 +36,9 @@
 [Laptop:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/2) 1024px<br>
 ![Laptop View](https://user-images.githubusercontent.com/80166639/159130063-68a934c2-ab03-4e01-a217-64a3d63b574e.png)
 [Tablet:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/3)  768px<br>
-[Mobile-L:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/4) 425X254<br>
-[Mobile-M:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/5) 375X254<br>
-[Mobile-S:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/6) 320X312
+[Mobile-L:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/4) 425px<br>
+[Mobile-M:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/5) 375px<br>
+[Mobile-S:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/6) 320px
 
 ## Fonts And Colors
 
