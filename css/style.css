@@ -1,9 +1,28 @@
+/**************** Font Import Url Start ****************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Font Import Url End */
 
+/**************** Global Features Start ****************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html{
+    position: relative;
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 15px;
 }
 
 .mb-5 {
@@ -22,17 +41,41 @@
   margin-left: 5px;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.fw-600{
+    font-weight: 600;
+}
+
+input,select{
+    outline: none;
+    background-color: #f6f6f6;
+    border: 1px solid #e5e5e5;
+    padding: 10px;
+    border-radius: 5px;
+}
+/**************** Global Features End ****************/
+
+/**************** Disabled, Enabled, Hide, Show, Error Classes Features Start ****************/
 .disabled{
     background-color: #f1a262;
     transition:background-color 0.5s;
 }
 
-.text-center{
-    text-align: center;
-}
-
 .enabled{
     background-color: #f27a1a;
+    transition:background-color 0.5s;
+}
+
+.disabled:hover{
+    background-color: #fec49c;
+    transition:background-color 0.5s;
+}
+
+.enabled:hover{
+    background-color: #ff8b38;
     transition:background-color 0.5s;
 }
 
@@ -48,32 +91,9 @@
     box-shadow: inset 20px 0px 0px -15px #ff6b6b;
     transition: box-shadow 0.1s;
 }
+/**************** Disabled, Enabled, Hide, Show, Error Classes Features End ****************/
 
-.fw-600{
-    font-weight: 600;
-}
-
-html{
-    position: relative;
-    height: 100%;
-}
-
-body{
-    font-family: 'Roboto', sans-serif;
-}
-
-input,select{
-    outline: none;
-    background-color: #f6f6f6;
-    border: 1px solid #e5e5e5;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-main{
-    padding:0 10vw;
-}
-
+/**************** Pop-Up Features Start ****************/
 .pop-up-info{
     background:linear-gradient(to right, rgba(193, 193, 193, 0.503), rgba(193, 193, 193, 0.503));
     position: absolute;
@@ -122,23 +142,6 @@ main{
     height: 170px;
 }
 
-/* width */
-.detail::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-  /* Track */
-.detail::-webkit-scrollbar-track {
-    background: #d8d8d8;
-    border-radius: 100px; 
-  }
-   
-  /* Handle */
-.detail::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 100px;
-  }
-
 .detail-text{
     padding: 30px;
     height: 300px;
@@ -148,6 +151,7 @@ main{
     font-size: 14px;
 }
 
+/**************** Pop-Up's Button Features Start ****************/
 .btn-confirm{
     color: white;
     text-align: center;
@@ -163,7 +167,34 @@ main{
     background-color: #ff8b38;
     transition:background-color 0.5s;
 }
+/**************** Pop-Up's Button Features End ****************/
+/**************** Pop-Up Features End ****************/
 
+/**************** Pop-Up Scrollbar Features Start ****************/
+/* width */
+.detail::-webkit-scrollbar {
+    width: 6px;
+}
+  
+/* Track */
+.detail::-webkit-scrollbar-track {
+    background: #d8d8d8;
+    border-radius: 100px; 
+}
+   
+/* Handle */
+.detail::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 100px;
+}
+/**************** Pop-Up Scrollbar Features End ****************/
+
+/**************** Main Features Start ****************/
+main{
+    padding:0 10vw;
+}
+
+/**************** Header Features Start ****************/
 header{
     display: flex;
     align-items: center;
@@ -175,6 +206,7 @@ header{
     height:50%;
 }
 
+/**************** Header Right Side Features Start ****************/
 .information{
     margin-left: auto;
     display: flex;
@@ -190,12 +222,16 @@ header{
 .information>p{
     color:gray;
 }
+/****************Header Right Side Features End ****************/
+/**************** Header Features End ****************/
 
+/**************** Container Features Start ****************/
 .container{
     display: flex;
     gap: 20px;
 }
 
+/**************** Payment Area Features Start ****************/
 .payment-area{
     width: 60%;
 }
@@ -340,7 +376,9 @@ header{
     padding: 10px;
     padding-top: 5px;
 }
+/**************** Payment Area Features End ****************/
 
+/**************** Pay Area Features Start ****************/
 .pay-area{
     margin-left: auto;
     display: flex;
@@ -356,16 +394,6 @@ header{
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.disabled:hover{
-    background-color: #fec49c;
-    transition:background-color 0.5s;
-}
-
-.enabled:hover{
-    background-color: #ff8b38;
-    transition:background-color 0.5s;
 }
 
 .check-contract{
@@ -392,54 +420,50 @@ header{
     transition: all 0.5s;
  }
  
- .check-contract>input[type="checkbox"]:checked{
+.check-contract>input[type="checkbox"]:checked{
      background-color: #f27a1a;
      display: flex;
      align-items: center;
  }
  
- .check-contract>input[type="checkbox"]:checked::before{
+.check-contract>input[type="checkbox"]:checked::before{
      content:"\f00c";
      font-family: FontAwesome;
      color: white;
  }
 
- .order-summary{
+.order-summary{
      border: 1px solid #e6e6e6;
      padding: 21px 15px;
      border-radius: 5px;
  }
 
-h2{
-     font-size: 20px;
-     font-weight: 100;
-     color: #333;
-     margin-bottom: 15px;
- }
-
- .order-content{
+.order-content{
      display: flex;
      flex-direction: column;
      gap: 16px;
      font-size: 14px;
  }
 
- .order-content>.order-box{
+.order-content>.order-box{
      display: flex;
  }
 
- .order-content>.order-box>p:last-child{
+.order-content>.order-box>p:last-child{
         margin-left: auto;
  }
 
- .order-summary hr{
+.order-summary hr{
      color: #e6e6e6;
  }
+/**************** Pay Area Features End ****************/
 
+/**************** Container Features End ****************/
+/**************** Main Features End ****************/
 
- /******************** MEDIA QUERIES  ***********************/
+/******************** Media Queries Start ***********************/
  
- /******************** 576PX *******************/
+/******************** 576px Start *******************/
  @media (max-width: 576px){
 
     html{
@@ -467,8 +491,9 @@ h2{
      }
 
  }
+ /******************** 576px End *******************/
 
-/******************** 768PX *******************/
+/******************** 768px Start *******************/
 @media (max-width: 768px){
 
     html{
@@ -493,13 +518,16 @@ h2{
 
     .pull-date-area>.cvv{
         margin-left: 0;
+        margin-top: 15px;
     }
 
     .pay-area{
         margin-left: 0;
     }
 }
+/******************** 768px End *******************/
 
+/******************** 2560px Start *******************/
 @media (max-width: 2560px){
     .pay-area{
         margin-left: 0;
@@ -509,3 +537,6 @@ h2{
         width: 100%;
     }
 }
+/******************** 2560px End *******************/
+
+/******************** Media Queries End ***********************/
