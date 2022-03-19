@@ -33,11 +33,12 @@
 
 ## Views
 
-[Laptop:](https://github.com/beyzanur-seyhan/responsive-news-website/issues/1) 1024X312<br>
-![Laptop View](https://user-images.githubusercontent.com/80166639/156396672-49ee79ba-1fb3-430e-84e1-4e23b03207ae.png)
-[Tablet:](https://github.com/beyzanur-seyhan/responsive-news-website/issues/2)  768X312<br>
-[Mobile-L:](https://github.com/beyzanur-seyhan/responsive-news-website/issues/3) 425X254<br>
-[Mobile-S:](https://github.com/beyzanur-seyhan/responsive-news-website/issues/4) 320X312
+[Laptop:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/2) 1024px<br>
+![Laptop View](https://user-images.githubusercontent.com/80166639/159130063-68a934c2-ab03-4e01-a217-64a3d63b574e.png)
+[Tablet:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/3)  768px<br>
+[Mobile-L:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/4) 425X254<br>
+[Mobile-M:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/5) 375X254<br>
+[Mobile-S:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/6) 320X312
 
 ## Fonts And Colors
 
@@ -66,7 +67,7 @@
 
 - Clone this repository with git clone
 
-![Clone-Repository](https://user-images.githubusercontent.com/80166639/156000904-810121f2-11a7-4066-b874-8defb1fda19c.jpg)
+![Clone-Repository](https://user-images.githubusercontent.com/80166639/159130629-c7a602a3-800f-4283-9daa-aee429000e34.jpg)
 
 <u>Type the following into the terminal:</u>
 
