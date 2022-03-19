@@ -34,7 +34,7 @@
 ## Views
 
 [Laptop:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/2) 1024px<br>
-![Laptop View](https://user-images.githubusercontent.com/80166639/159130063-68a934c2-ab03-4e01-a217-64a3d63b574e.png)
+![Laptop View](https://user-images.githubusercontent.com/80166639/159131324-53f075da-62c5-4a23-b47d-ddc98a539e07.gif)
 [Tablet:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/3)  768px<br>
 [Mobile-L:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/4) 425px<br>
 [Mobile-M:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/5) 375px<br>
