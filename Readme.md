@@ -33,12 +33,12 @@
 
 ## Views
 
-[Laptop:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/2) 1024px<br>
-![Laptop View](https://user-images.githubusercontent.com/80166639/159131324-53f075da-62c5-4a23-b47d-ddc98a539e07.gif)
-[Tablet:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/3)  768px<br>
-[Mobile-L:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/4) 425px<br>
-[Mobile-M:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/5) 375px<br>
-[Mobile-S:](https://github.com/beyzanur-seyhan/trendyol-payment-system/issues/6) 320px
+[Laptop:](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/trendyol-payment-system.gif) 1024px<br>
+![Laptop View](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/trendyol-payment-system.gif)
+[Tablet:](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/768px-(tablet).png)  768px<br>
+[Mobile-L:](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/425px-(mobile-l).png) 425px<br>
+[Mobile-M:](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/375px-(mobile-m).png) 375px<br>
+[Mobile-S:](https://raw.githubusercontent.com/beyzanur-seyhan/trendyol-payment-system/main/readme-img/320px-(mobile-s).png) 320px
 
 ## Fonts And Colors
 
