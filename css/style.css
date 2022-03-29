@@ -273,6 +273,19 @@ header{
     gap: 15px;
 }
 
+.user-info{
+    display: flex;
+    gap: 15px;
+}
+
+.user-info div{
+    width: 50%
+}
+
+.user-info input{
+    width: 100%;
+}
+
 .payment-area>.content>.card-info label{
     display: block;
 }
@@ -436,6 +449,7 @@ header{
      border: 1px solid #e6e6e6;
      padding: 21px 15px;
      border-radius: 5px;
+     height: 295px;
  }
 
 .order-content{
