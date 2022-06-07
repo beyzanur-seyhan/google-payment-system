@@ -3,6 +3,7 @@
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
 @import 'component/button';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 html,body{
     height: 100%;
@@ -10,6 +11,7 @@ html,body{
 
 .main{
 
+    font-family: 'Montserrat', sans-serif;
     height: 100%;
     padding: 0 36px;
     @include flex(center,150px);
@@ -33,7 +35,105 @@ html,body{
             position: relative;
             width: 641px;
             height: 580px;
-            left: -150px;
+            left: -120px;
         }
     }
+
+    &-right-area{
+
+        width: 425px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        .title{
+            font-size: 70px;
+        }
+
+        .desc{
+            font-weight: 600;
+        }
+
+        .price{
+            display: flex;
+            align-items: center;
+
+            .total{
+                font-weight: 700;
+                font-size: 36px;
+            }
+
+            .total-desc{
+                margin-left: auto;
+                font-size: 16px;
+                font-weight: 600;
+                color: $text-color;
+            }
+        }
+
+        .reviews{
+            display: flex;
+            gap: 10px;
+
+            .text{
+                font-weight: 600;
+            }
+
+            .stars{
+                color: $star-color;
+            }
+        }
+
+        .btn-buy{
+           
+           width: 200px;
+           position: relative;
+
+           p,i{
+               position: absolute;
+               top: 23px;
+           }
+
+           p{
+               left: 14px;
+               font-weight: 600;
+           }
+
+           i{
+            right: 14px;
+            font-size: 22px;
+           }
+
+           button{
+               height: 60px;
+               min-width: 200px;
+           }
+        }
+        
+    }
+}
+
+
+.gpay-card-info-container.black, .gpay-card-info-animation-container.black{
+    background-color: $primary-color !important;
+}
+
+.gpay-card-info-animated-progress-bar,svg,iframe{
+    display: none !important;
+}
+
+button div,button>div>iframe{
+    display: none !important;
+}
+
+.gpay-card-info-animation-gpay-logo{
+    display: none !important;
+}
+
+.gpay-card-info-animation-container-fade-out{
+    animation-duration: 0ms !important;
+}
+
+.b3-updatable-cart .b3-updatable-cart-dialog-summary-value{
+    display: none !important;
 }
