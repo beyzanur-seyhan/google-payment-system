@@ -1,4 +1,4 @@
-# TRENDYOL PAYMENT SYSTEM 💳
+# GOOGLE PAYMENT SYSTEM 💳
 
 ▶️ [Used Languages Or Technologies](#used-languages-or-technologies)
 
