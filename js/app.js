@@ -22,22 +22,9 @@ pay_check.addEventListener('click', function () {
 /************************* Pay-CheckBox End *************************/
 
 /************************* Pay-Button Start *************************/
-for(let i=0;i<btn_pay.length;i++){
 
-    btn_pay[i].addEventListener('click',function(){
-    
-    if(btn_pay[i].classList.contains('enabled')){
-        for(let i=0;i<pay_inputs.length;i++){
-            if(pay_inputs[i].value==false || pay_select.options[i].value==false){
-                pay_inputs[i].classList.add('error');
-            }
 
-            else{
-                pay_inputs[i].classList.remove('error');
-            }
-        }
-    }})
-}
+
 /************************* Pay-Button End *************************/
 
 /************************* Total Start *************************/

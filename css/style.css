@@ -399,15 +399,75 @@ header{
     gap: 15px;
 }
 
+button{
+    position: absolute;
+    height: 44px !important;
+}
+
+button::before{
+    content: 'Ödeme Yap';
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#container{
+    position: relative;
+    height: 44px;
+}
+
 .btn-pay{
     color: white;
     text-align: center;
-    padding: 15px;
     font-size: 17px;
     font-weight: 600;
     border-radius: 5px;
-    cursor: pointer;
 }
+
+.gpay-card-info-iframe.gpay-card-info-iframe-fade-in{
+    animation: 0ms !important;
+}
+
+.gpay-card-info-container.black, .gpay-card-info-animation-container.black{
+    background-color: #f27a1a !important;
+    transition: background-color 0.5s !important;
+    width: 100%;
+}
+
+.gpay-card-info-container.black:hover, .gpay-card-info-animation-container.black:hover{
+    background-color: #fec49c !important;
+    
+}
+
+.gpay-card-info-animated-progress-bar{
+    display: none !important;
+}
+
+svg,iframe{
+    display: none !important;
+}
+
+.gpay-card-info-animation-gpay-logo,.gpay-card-info-placeholder-container,.gpay-card-info-animation-container-fade-out{
+    animation: none !important;
+  
+}
+
+button div,button>div>iframe{
+    display: none !important;
+}
+
+.gpay-card-info-animation-gpay-logo{
+    display: none !important;
+}
+
+.gpay-card-info-animation-container-fade-out{
+    animation-duration: 0ms !important;
+}
+
+.b3-updatable-cart .b3-updatable-cart-dialog-summary-value{
+    display: none !important;
+}
+
 
 .check-contract{
     display: flex;
@@ -449,7 +509,7 @@ header{
      border: 1px solid #e6e6e6;
      padding: 21px 15px;
      border-radius: 5px;
-     height: 295px;
+    height: 366px;
  }
 
 .order-content{
@@ -554,3 +614,4 @@ header{
 /******************** 2560px End *******************/
 
 /******************** Media Queries End ***********************/
+
