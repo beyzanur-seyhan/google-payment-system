@@ -1,3 +1,31 @@
+// SMALL DEVICES
+@mixin sm{
+    @media (min-width: $screen-sm-min) {
+        @content;
+    }
+}
+
+// MEDIUM DEVICES
+@mixin md{
+    @media (min-width: $screen-md-min) {
+        @content;
+    }
+}
+
+// LARGE DEVICES
+@mixin lg {
+    @media (min-width: $screen-lg-min) {
+        @content;
+    }
+}
+
+// EXTRA LARGE DEVICES
+// @mixin xl{
+//     @media (min-width: $screen-xl-min) {
+//         @content;
+//     }
+// }
+
 // FLEXBOX
 @mixin flex($justify, $gap, $align:center, $direction:row, $wrap: wrap){
     display: flex;
