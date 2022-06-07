@@ -9,6 +9,10 @@ html,body{
     height: 100%;
 }
 
+body{
+    position: relative;
+}
+
 .main{
 
     font-family: 'Montserrat', sans-serif;
@@ -17,25 +21,71 @@ html,body{
     @include flex(center,150px);
 
     &-left-area{
-        width: 568px;
-        height: 515px;
-        position: relative;
+
+        @include sm{
+            height: 262px;
+        }
+
+        @include md{
+            height: 300px;
+        }
+
+
+        @include lg{
+            width: 568px;
+            height: 515px;
+            position: relative;
+        }
 
         .circle{
             position: absolute;
-            width: 600px;
-            height: 750px;
             background: $primary-color;
             border-radius: 100%;
-            top: -150px;
-            left: -500px;
+
+            @include sm{
+                width: 441px;
+                height: 398px;
+                left: -62px;
+                top: -203px;
+            }
+
+            @include md{
+                position: relative;
+                width: 592px;
+                height: 444px;
+                left: -13px;
+                top: -274px;
+            }
+
+            @include lg{
+                width: 600px;
+                height: 804px;
+                top: -150px;
+                left: -500px;
+            }
         }
         
         img{
-            position: relative;
-            width: 641px;
-            height: 580px;
-            left: -120px;
+            position: absolute;
+
+            @include sm{
+                width: 362px;
+                height: 328px;
+                left: 38px;
+                top: 44px;
+            }
+
+            @include md{
+                width: 458px;
+                height: 415px;
+                left: 137px;
+            }
+
+            @include lg{
+                width: 641px;
+                height: 580px;
+                left: -120px;
+            }
         }
     }
 
@@ -47,6 +97,11 @@ html,body{
         gap: 24px;
 
         .title{
+
+            @include sm{
+                font-size: 58px;
+            }
+
             font-size: 70px;
         }
 
