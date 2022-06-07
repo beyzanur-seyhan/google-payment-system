@@ -2,6 +2,38 @@
 @import 'base/normalize';
 @import 'abstracts/mixins';
 @import 'abstracts/variables';
-@import 'component/button'
+@import 'component/button';
 
+html,body{
+    height: 100%;
+}
 
+.main{
+
+    height: 100%;
+    padding: 0 36px;
+    @include flex(center,150px);
+
+    &-left-area{
+        width: 568px;
+        height: 515px;
+        position: relative;
+
+        .circle{
+            position: absolute;
+            width: 600px;
+            height: 750px;
+            background: $primary-color;
+            border-radius: 100%;
+            top: -150px;
+            left: -500px;
+        }
+        
+        img{
+            position: relative;
+            width: 641px;
+            height: 580px;
+            left: -150px;
+        }
+    }
+}
