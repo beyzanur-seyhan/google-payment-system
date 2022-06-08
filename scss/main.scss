@@ -9,6 +9,7 @@ html,body{
 }
 
 .main{
+    overflow: hidden;
 
     @include xs{
         gap: 14px;
@@ -22,23 +23,6 @@ html,body{
     &-left-area{
 
         position: relative;
-        
-        @include sm{
-            position: static;
-            height: 262px;
-        }
-
-        @include md{
-            height: 300px;
-        }
-
-
-        @include lg{
-            position: relative;
-            width: 568px;
-            height: 515px;
-            top: -36px;
-        }
 
         .circle{
             position: absolute;
@@ -47,19 +31,19 @@ html,body{
 
 
             @include xs{
-                width: 396px;
+                
                 height: 398px;
                 left: -127px;
                 top: -230px;
-                z-index: -1;
+
             }
 
 
             @include sm{
-                width: 441px;
-                height: 398px;
-                left: -62px;
-                top: -203px;
+
+                width: 299px;
+                left: -87px;
+                top: -271px;
                 z-index: -1;
             }
 
@@ -80,29 +64,27 @@ html,body{
         }
         
         img{
-            position: absolute;
-
+            position: relative;
+            width: 100%;
+            
             @include xs{
                 position: static;
-                width: 100%;
+                
             }
             
             @include sm{
-                width: 362px;
-                height: 328px;
+
                 left: 38px;
                 top: 44px;
             }
 
             @include md{
-                width: 458px;
-                height: 415px;
+
                 left: 137px;
             }
 
             @include lg{
-                width: 641px;
-                height: 580px;
+
                 left: -120px;
             }
         }
