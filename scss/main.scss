@@ -9,82 +9,46 @@ html,body{
 }
 
 .main{
-  
-
-    @include xs{
-        gap: 14px;
-    }
 
     font-family: 'Montserrat', sans-serif;
     height: 100%;
     padding: 0 36px;
-    @include flex(center,150px);
+    @include flex(center,24px,center);
+
+    @include sm{
+        padding: 0;
+    }
 
     &-left-area{
 
-        position: relative;
+        margin-right: 150px;
+
+        @include sm{
+            margin-right: 0;
+        }
+
+
+        .position{
+            position: relative;
+            width: 100%;
+        }
 
         .circle{
             position: absolute;
-            background: $primary-color;
-            border-radius: 100%;
-
-
-            @include xs{
-                width: 299px;
-                height: 398px;
-                left: -127px;
-                top: -230px;
-
-            }
-
-
-            @include sm{
-
-                width: 299px;
-                left: -87px;
-                top: -271px;
-                z-index: -1;
-            }
-
-            @include md{
-                position: relative;
-                width: 592px;
-                height: 444px;
-                left: -13px;
-                top: -274px;
-            }
-
-            @include lg{
-                
-                top: -150px;
-                left: -500px;
-            }
+            width: 100px;
+            height: 100px;
+            background-color: $star-color;
+            z-index: -1;
         }
-        
+
         img{
-            position: relative;
-            width: 100%;
-            
-            @include xs{
-                position: static;
-                
-            }
-            
+            width: 611px;
+            height: 552px;
+
             @include sm{
-
-                left: 38px;
-                top: 44px;
-            }
-
-            @include md{
-
-                left: 137px;
-            }
-
-            @include lg{
-
-                left: -120px;
+                
+                width: 100%;
+                height: 100%;
             }
         }
     }
@@ -95,6 +59,10 @@ html,body{
         display: flex;
         flex-direction: column;
         gap: 24px;
+
+        @include sm{
+            padding: 0 36px;
+        }
 
         .title{
 
