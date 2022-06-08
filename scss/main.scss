@@ -32,7 +32,7 @@ html,body{
             width: 100%;
         }
 
-        .circle{
+        .shape{
             display: none;
 
             @include sm{
@@ -143,6 +143,23 @@ html,body{
 
 .gpay-card-info-container.black, .gpay-card-info-animation-container.black{
     background-color: $primary-color !important;
+}
+
+.gpay-card-info-container.black::before{
+    content: 'Add to cart';
+    position: absolute;
+    top: 23px;
+    left: 14px;
+    font-weight: 600;
+}
+
+.gpay-card-info-container.black::after{
+    content: '\f217';
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 23px;
+    right: 14px;
+    font-size: 22px;
 }
 
 .gpay-card-info-animated-progress-bar,svg,iframe{
