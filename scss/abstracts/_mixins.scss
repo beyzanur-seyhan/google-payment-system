@@ -7,7 +7,7 @@
 
 // SMALL DEVICES
 @mixin sm{
-    @media (min-width: $screen-sm-min) {
+    @media (max-width: $screen-sm-min) {
         @content;
     }
 }
