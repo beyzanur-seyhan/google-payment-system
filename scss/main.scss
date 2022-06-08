@@ -9,7 +9,7 @@ html,body{
 }
 
 .main{
-    overflow: hidden;
+  
 
     @include xs{
         gap: 14px;
@@ -31,7 +31,7 @@ html,body{
 
 
             @include xs{
-                
+                width: 299px;
                 height: 398px;
                 left: -127px;
                 top: -230px;
@@ -56,8 +56,7 @@ html,body{
             }
 
             @include lg{
-                width: 600px;
-                height: 804px;
+                
                 top: -150px;
                 left: -500px;
             }
