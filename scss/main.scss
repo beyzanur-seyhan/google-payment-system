@@ -9,11 +9,11 @@ html,body{
     height: 100%;
 }
 
-body{
-    position: relative;
-}
-
 .main{
+
+    @include xs{
+        gap: 14px;
+    }
 
     font-family: 'Montserrat', sans-serif;
     height: 100%;
@@ -22,7 +22,10 @@ body{
 
     &-left-area{
 
+        position: relative;
+        
         @include sm{
+            position: static;
             height: 262px;
         }
 
@@ -32,9 +35,10 @@ body{
 
 
         @include lg{
+            position: relative;
             width: 568px;
             height: 515px;
-            position: relative;
+            top: -36px;
         }
 
         .circle{
@@ -42,11 +46,22 @@ body{
             background: $primary-color;
             border-radius: 100%;
 
+
+            @include xs{
+                width: 396px;
+                height: 398px;
+                left: -127px;
+                top: -230px;
+                z-index: -1;
+            }
+
+
             @include sm{
                 width: 441px;
                 height: 398px;
                 left: -62px;
                 top: -203px;
+                z-index: -1;
             }
 
             @include md{
@@ -68,6 +83,11 @@ body{
         img{
             position: absolute;
 
+            @include xs{
+                position: static;
+                width: 100%;
+            }
+            
             @include sm{
                 width: 362px;
                 height: 328px;
