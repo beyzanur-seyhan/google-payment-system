@@ -27,18 +27,22 @@ html,body{
             margin-right: 0;
         }
 
-
         .position{
             position: relative;
             width: 100%;
         }
 
         .circle{
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            background-color: $star-color;
-            z-index: -1;
+            display: none;
+
+            @include sm{
+                display: block;
+                position: absolute;
+                width: 300px;
+                height: 220px;
+                z-index: -1;
+                background-color: $primary-color;
+            }
         }
 
         img{
