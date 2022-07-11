@@ -20,7 +20,7 @@
 
 ...
 
-▶️ [Live Demo](https://beyzanur-seyhan.github.io/trendyol-payment-system/) ▶ Check out how the project looks
+▶️ [Live Demo](https://beyzanur-seyhan.github.io/google-payment-system/) ▶ Check out how the project looks
 
 - This project includes a system that facilitates electronic payment by card on e-commerce websites.
 - The interface of the make payment page of the Trendyol website is coded. In addition, the part with card information entries is only an interface and when the "pay" button is clicked, the payment request window supported by Google Chrome opens.
@@ -28,7 +28,7 @@
 ## Used Languages Or Technologies
 
 - HTML
-- CSS 
+- Scss 
 - Javascript
 
 ## Views
